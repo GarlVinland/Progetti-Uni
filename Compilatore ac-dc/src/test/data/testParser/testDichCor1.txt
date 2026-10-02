@@ -1,0 +1,4 @@
+int x;
+float y;
+print x;
+print y;

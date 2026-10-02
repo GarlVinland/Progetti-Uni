@@ -1,0 +1,4 @@
+int temp;
+temp += 10;
+temp = 3 + 7 / 4 - 2;
+print temp;

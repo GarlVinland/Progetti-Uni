@@ -1,4 +1,4 @@
-# Small Shell (Smallsh) - Lab Modifications: Background Execution
+# Small Shell (Smallsh) 
 
 Questo repository contiene la soluzione e la documentazione per la modifica dell'esempio **Small Shell** (`Lab4/smallsh`), focalizzata sull'introduzione e la gestione dei comandi in esecuzione in background.
 
@@ -16,4 +16,3 @@ Le richieste principali affrontate in questa modifica del codice della shell son
 ## Dettagli della Soluzione
 
 - **Parsing dei comandi:** Il parser della shell è stato adattato per riconoscere la presenza dell'operatore `&`.
-- **Chiamate di sistema:** Utilizzo di `fork()` e gestione del flag di attesa (`waitpid`) condizionato dalla presenza del simbolo di background.
